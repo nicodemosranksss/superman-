@@ -1,1 +1,64 @@
-{ padding: 0px; margin: 0px; } body { background-color: aquamarine; height: 100%; } .capa { width: 100%; object-fit: cover; height: 400px;/*mudar*/ } .infoHeader{ padding-top: 15px; background-color: azure; } .titulo { text-align: center; color:antiquewhite } nav { text-decoration: none; color: beige; padding: 30px; font-size: 20px; font-weight: bold; }
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(229, 255, 0);
+    height: 100%;
+}
+
+.capa {
+    width: 100%;
+    object-fit: cover;
+    height: 400px; /* mudar */
+
+}
+
+.infoHeader {
+    padding-top: 15px;
+    background-color: black;
+}
+
+.titulo {
+    text-align: 15px;
+    background-color: black;
+}
+
+nav {
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ nav a:hover{
+    color: rgb(39, 10, 229);
+ }
+
+ .introducao h2 {
+    text-align: center;
+    font-size: 40px;
+ }
+
+ .introducao p {
+    text-align: center;
+    font-size: 20px;
+    margin-left: 25px;
+    margin-right: 20px;
+ }
+
+ .viloes {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 40px;
+    font-size: 20px;
+    gap: 5px;
+    background-color: #464544;
+ }
