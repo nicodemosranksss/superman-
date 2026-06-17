@@ -1,0 +1,1 @@
+{ padding: 0px; margin: 0px; } body { background-color: aquamarine; height: 100%; } .capa { width: 100%; object-fit: cover; height: 400px;/*mudar*/ } .infoHeader{ padding-top: 15px; background-color: azure; } .titulo { text-align: center; color:antiquewhite } nav { text-decoration: none; color: beige; padding: 30px; font-size: 20px; font-weight: bold; }
